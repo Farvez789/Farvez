@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Farvez Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #111;
+            color: #fff;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #222;
+            color: #FFA500;
+            text-align: center;
+            padding: 2rem;
+            border-bottom: 5px solid #FFA500;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+            padding: 1rem;
+        }
+        nav a {
+            color: #FFA500;
+            text-decoration: none;
+            margin: 0 1.5rem;
+            font-size: 1.2rem;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        main {
+            padding: 2rem;
+            text-align: center;
+        }
+        section {
+            margin-bottom: 2rem;
+        }
+        section h2 {
+            font-size: 2rem;
+            color: #FFA500;
+            border-bottom: 2px solid #FFA500;
+            display: inline-block;
+            padding-bottom: 0.5rem;
+        }
+        section p {
+            font-size: 1.1rem;
+            line-height: 1.6;
+        }
+        footer {
+            background-color: #222;
+            color: #FFA500;
+            text-align: center;
+            padding: 1rem;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        footer p {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Farvez Website</h1>
+    </header>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <main>
+        <section id="about">
+            <h2>About Me</h2>
+            <p>Hello! I'm Farvez, and this is my first website. I'm passionate about creativity and learning new things. This website is a simple introduction to who I am and what I do.</p>
+        </section>
+        <section id="services">
+            <h2>Services</h2>
+            <p>Currently, I offer creativity and ideas, especially for web development and design. I'm always eager to work on exciting projects and bring new ideas to life!</p>
+        </section>
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>You can reach me at <a href="mailto:farvaz100@gmail.com" style="color: #FFA500;">farvaz100@gmail.com</a></p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Farvez Website</p>
+    </footer>
+</body>
+</html>
+
